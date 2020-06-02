@@ -49,6 +49,10 @@ lstBucket = ['Skydiving', 'Hot Air balloon'] # Bucketlist of items that end user
 ### Figure 5
 ![Results of Figure5](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure5.png)
 
+```python
+��8       ]�(�	Skydiving��Hot Air balloon��Bungee��	Buy House�e.
+```
+
   The code is shown in Figure 6. The unpicklingerror exception is used when there is a problem unpickling an object that may be because data was corrupted or changed whether intentionally or unintentionally.   
   
 ### Figure 6
