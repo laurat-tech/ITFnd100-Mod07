@@ -25,12 +25,12 @@ except Exception as e:  # Tells the end user what the exception error is if not 
     print("Oops!", e.__class__, "occurred.") #Prints the exception error so the end user can see it.
 ```
 
-The value error exception does not allow the user to enter string characters or anything that is not a number. ZeroDivisionError does not allow a user to enter a number less than 1. Last of all, Exception prints out any other exception that the end user may have gotten that is not displayed or handled in the code. In Figure 2, I ran the code in pycharm and tested with a 0. As seen, my exception tells the end user that they cannot enter a number and divide by 0. To run the script in an OS command, I opened a command prompt by typing “cmd” into the search bar of my desktop. I typed “Python "C:\_PythonClass\Assignment07\Assignment07 Error Handling.py" into the command prompt providing the file location to open up the file.  
+The value error exception does not allow the user to enter string characters or anything that is not a number. ZeroDivisionError does not allow a user to enter a number less than 1. Last of all, Exception prints out any other exception that the end user may have gotten that is not displayed or handled in the code. In Figure 2, I ran the code in pycharm and tested with a 0. As seen, my exception tells the end user that they cannot enter a number and divide by 0. To run the script in an OS command, I opened a command prompt by typing “cmd” into the search bar of my desktop. I typed “Python "C:\_PythonClass\Assignment07\Assignment07 Error Handling.py" into the command prompt providing the file location to open up the file. Figure 3 shows the result of my program being run in the cmd line.  
 
 ### Figure 2   
-![Figure2](https://user-images.githubusercontent.com/65471958/83485619-42082d00-a45c-11ea-9348-dfcd3842f67f.png)
+![](https://user-images.githubusercontent.com/65471958/83485619-42082d00-a45c-11ea-9348-dfcd3842f67f.png)
 
-Figure 3 shows the result of my program being run in the cmd line.
+
 
 ### Figure 3
 ![](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure3.png)
@@ -43,9 +43,7 @@ Pickling is a serialization and deserialization module that converts python obje
 import pickle  # This imports code from another code file!
 import sys # Import module sys to get the type of exception.
 lstBucket = ['Skydiving', 'Hot Air balloon'] # Bucketlist of items that end user will add on to
-```
-
-  Figure 5 shows the result of the pickling. I also went ahead and added an exception to this script for when a pickle is unpickled.  
+```  
  
 ### Figure 5
 ![](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure5.png)
@@ -54,7 +52,7 @@ lstBucket = ['Skydiving', 'Hot Air balloon'] # Bucketlist of items that end user
 ��8       ]�(�	Skydiving��Hot Air balloon��Bungee��	Buy House�e.
 ```
 
-  The code is shown in Figure 6. The unpicklingerror exception is used when there is a problem unpickling an object that may be because data was corrupted or changed whether intentionally or unintentionally.   
+Figure 5 shows the result of the pickling. I also went ahead and added an exception to this script for when a pickle is unpickled. The code is shown in Figure 6. The unpicklingerror exception is used when there is a problem unpickling an object that may be because data was corrupted or changed whether intentionally or unintentionally.   
   
 ### Figure 6
 ```python
