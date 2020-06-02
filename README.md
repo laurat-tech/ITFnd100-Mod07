@@ -33,7 +33,7 @@ The value error exception does not allow the user to enter string characters or 
 
 
 ### Figure 3
-![](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure3.png)
+![](https://user-images.githubusercontent.com/65471958/83486060-3f5a0780-a45d-11ea-9d3a-795f2fde2c0f.png)
 
 ### **Pickling**  
 Pickling is a serialization and deserialization module that converts python objects to byte streams and back again. People will generally use pickling when they have a large data set that they want to read. The read-in process tends to take a while, pickling will process this data a lot faster. When a pickled file is read, it can often be misunderstood as being encrypted due to the binary conversion but it is by no means encrypted.  A site that I found extremely helpful in explaining this concept is https://python.readthedocs.io/en/latest/library/pickle.html. The explanation on this site was straightforward. Not only does it show how to serialize data, it shows how to de-serialize To demonstrate pickling, I created a code based off of example 7-1 from the Assignment 7 Starter Code. In my code, I ask the end user to enter something they would like to add to their bucket list and pickle it. Using the example outline from class, I started my code shown in Figure 4.   
@@ -62,10 +62,8 @@ except pickle.UnpicklingError as e: #Raised when there is a problem unpickling a
 ```
 
 ### Figure 7  
-![](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure7.png)  
+![](https://user-images.githubusercontent.com/65471958/83486065-43862500-a45d-11ea-9a43-3385bb47ac80.png) 
 
 ## **Summary**  
 This lesson covered error handling and pickling and showed the code run from Pycharm as well as the Command Prompt.  Through Error handling, we can prompt or prevent the problems that end users may see before they see it. Through pickling, we can flatten our code to load it more quickly when it needs to be accessed. As a software developer it is important to use error handling, pickling, and other methods where applicable to create the most efficient code for end users as well as those reusing your code. 
 
-### Problems with image load when Creating the GitHub
-For some reason I have been running into a problem where my images will not load to github. I spent the past 4 hours googling the problem. Here is what is happening: The image loads on the display view but it does not load to the website link. I've tried 3 different backgrounds now and experimented different methods. First of all, I used the URL method where I grabbed the direct URL as shown by Professor Root in his Youtube video. Next, I tried to use this link which ultimately gave me the same result as Professor Root's example (https://ardalis.com/add-images-easily-to-github). Last of all, I tried the method where instead of using a link I used the direct path of the image from the doc folder. I read a few forums on Google that I did not find too helpful. It appears that some other people experienced this issue as well but it was because they used the wrong backward slash instead of a forward slash or used the wrong case when they copied the path over. I doublechecked to make sure that this was not what led to my error. I left my link alone assuming that it would take a while to load but that did not help either. Some Youtube videos that I watched showed me similar methods that I attempted. Would someone be able to advise? Thanks! 
