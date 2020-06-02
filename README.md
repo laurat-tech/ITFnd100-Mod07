@@ -46,7 +46,6 @@ lstBucket = ['Skydiving', 'Hot Air balloon'] # Bucketlist of items that end user
 ```  
  
 ### Figure 5
-![](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure5.png)
 
 ```python
 ��8       ]�(�	Skydiving��Hot Air balloon��Bungee��	Buy House�e.
