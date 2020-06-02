@@ -28,7 +28,7 @@ except Exception as e:  # Tells the end user what the exception error is if not 
 The value error exception does not allow the user to enter string characters or anything that is not a number. ZeroDivisionError does not allow a user to enter a number less than 1. Last of all, Exception prints out any other exception that the end user may have gotten that is not displayed or handled in the code. In Figure 2, I ran the code in pycharm and tested with a 0. As seen, my exception tells the end user that they cannot enter a number and divide by 0. To run the script in an OS command, I opened a command prompt by typing “cmd” into the search bar of my desktop. I typed “Python "C:\_PythonClass\Assignment07\Assignment07 Error Handling.py" into the command prompt providing the file location to open up the file.  
 
 ### Figure 2   
-![Figure2](https://user-images.githubusercontent.com/65471958/83480372-fea7c180-a44f-11ea-80d4-4ffc65138ec6.png)
+![Figure2](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure2.png)
 
 Figure 3 shows the result of my program being run in the cmd line.
 
