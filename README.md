@@ -33,7 +33,7 @@ The value error exception does not allow the user to enter string characters or 
 Figure 3 shows the result of my program being run in the cmd line.
 
 ### Figure 3
-![Results of Figure3](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure3.png)
+![](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure3.png)
 
 ### **Pickling**  
 Pickling is a serialization and deserialization module that converts python objects to byte streams and back again. People will generally use pickling when they have a large data set that they want to read. The read-in process tends to take a while, pickling will process this data a lot faster. When a pickled file is read, it can often be misunderstood as being encrypted due to the binary conversion but it is by no means encrypted.  A site that I found extremely helpful in explaining this concept is https://python.readthedocs.io/en/latest/library/pickle.html. The explanation on this site was straightforward. Not only does it show how to serialize data, it shows how to de-serialize To demonstrate pickling, I created a code based off of example 7-1 from the Assignment 7 Starter Code. In my code, I ask the end user to enter something they would like to add to their bucket list and pickle it. Using the example outline from class, I started my code shown in Figure 4.   
@@ -48,7 +48,7 @@ lstBucket = ['Skydiving', 'Hot Air balloon'] # Bucketlist of items that end user
   Figure 5 shows the result of the pickling. I also went ahead and added an exception to this script for when a pickle is unpickled.  
  
 ### Figure 5
-![Results of Figure5](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure5.png)
+![](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure5.png)
 
 ```python
 ��8       ]�(�	Skydiving��Hot Air balloon��Bungee��	Buy House�e.
@@ -64,7 +64,7 @@ except pickle.UnpicklingError as e: #Raised when there is a problem unpickling a
 ```
 
 ### Figure 7  
-![Results of Figure7](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure7.png)  
+![](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure7.png)  
 
 ## **Summary**  
 This lesson covered error handling and pickling and showed the code run from Pycharm as well as the Command Prompt.  Through Error handling, we can prompt or prevent the problems that end users may see before they see it. Through pickling, we can flatten our code to load it more quickly when it needs to be accessed. As a software developer it is important to use error handling, pickling, and other methods where applicable to create the most efficient code for end users as well as those reusing your code. 
