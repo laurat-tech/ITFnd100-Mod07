@@ -12,8 +12,7 @@ Error handling is used to guard against potential failures in code that would us
 
 The value error exception does not allow the user to enter string characters or anything that is not a number. ZeroDivisionError does not allow a user to enter a number less than 1. Last of all, Exception prints out any other exception that the end user may have gotten that is not displayed or handled in the code. In Figure 2, I ran the code in pycharm and tested with a 0. As seen, my exception tells the end user that they cannot enter a number and divide by 0. To run the script in an OS command, I opened a command prompt by typing “cmd” into the search bar of my desktop. I typed “Python "C:\_PythonClass\Assignment07\Assignment07 Error Handling.py" into the command prompt providing the file location to open up the file.  
 
-### Figure 2
-![Results of Figure 2](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure2.png)  
+### Figure 2 ![Results of Figure 2](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure2.png)  
 Figure 3 shows the result of my program being run in the cmd line.
 
 ### Figure 3
@@ -27,7 +26,7 @@ Pickling is a serialization and deserialization module that converts python obje
 
   Figure 5 shows the result of the pickling. I also went ahead and added an exception to this script for when a pickle is unpickled.  
   
-  ### Figure 5
+### Figure 5
 ![Results of Figure5](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure5.png)
 
   The code is shown in Figure 6. The unpicklingerror exception is used when there is a problem unpickling an object that may be because data was corrupted or changed whether intentionally or unintentionally.   
