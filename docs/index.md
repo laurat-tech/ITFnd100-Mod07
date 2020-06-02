@@ -8,12 +8,12 @@ Software developers are creative people who automate repetitive tasks and strive
 Error handling is used to guard against potential failures in code that would usually cause the program to exit. During my research, I found this site to be particularly helpful: https://www.tutorialspoint.com/python/python_exceptions.htm. There are a variety of errors a programmer may encounter; this site lists all the types of errors and gives a brief explanation on what this error is. It then gives code examples that outline how to handle the error and defend the code. The tip that I found useful from this website is that a try statement can contain multiple except statements in the case that a try block contains statements that have multiple types of exceptions. In my example, I created a code that asks a user to enter a number to find its reciprocal in decimal form. I created 3 exceptions as seen in Figure 1.   
 
 ### Figure 1
-![](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure1.png)
+![Results of Figure 1](docs/Figure1.png)
 
 The value error exception does not allow the user to enter string characters or anything that is not a number. ZeroDivisionError does not allow a user to enter a number less than 1. Last of all, Exception prints out any other exception that the end user may have gotten that is not displayed or handled in the code. In Figure 2, I ran the code in pycharm and tested with a 0. As seen, my exception tells the end user that they cannot enter a number and divide by 0. To run the script in an OS command, I opened a command prompt by typing “cmd” into the search bar of my desktop. I typed “Python "C:\_PythonClass\Assignment07\Assignment07 Error Handling.py" into the command prompt providing the file location to open up the file.  
 
 ### Figure 2
-![Results of Figure2](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure2.png)  
+![Results of Figure 2](https://github.com/laurat-tech/ITFnd100-Mod07/blob/master/docs/Figure2.png)  
 Figure 3 shows the result of my program being run in the cmd line.
 
 ### Figure 3
